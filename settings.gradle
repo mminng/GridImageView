@@ -1,0 +1,3 @@
+rootProject.name = "GridImageView"
+include ':simple'
+include ':library'

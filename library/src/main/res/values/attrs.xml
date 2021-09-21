@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="gridImageSpacing" format="dimension" />
+    <attr name="gridImageRadius" format="dimension" />
+    <attr name="gridImageFixed" format="boolean" />
+
+    <declare-styleable name="GridImageView">
+        <attr name="gridImageSpacing" />
+        <attr name="gridImageRadius" />
+        <attr name="gridImageFixed" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageFragment">
+        <attr name="gridImageSpacing" />
+        <attr name="gridImageRadius" />
+        <attr name="gridImageFixed" />
+    </declare-styleable>
+
+    <declare-styleable name="EditGridImageView">
+        <attr name="gridImageSpacing" />
+        <attr name="gridImageRadius" />
+        <attr name="gridImageMaxCount" format="integer" />
+        <attr name="gridImageRemoveIconDrawable" format="reference" />
+        <attr name="gridImageAddIconDrawable" format="reference" />
+        <attr name="gridImageAddIconBackgroundColor" format="color" />
+    </declare-styleable>
+
+</resources>
